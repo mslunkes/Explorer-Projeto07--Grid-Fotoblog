@@ -130,10 +130,14 @@ main h1 {
   aspect-ratio: 16/9;
   object-fit: cover;
 
-  transition-property: all;
+  /* transition-property: all;
   transition-duration: 100ms;
   transition-delay: 0.1s; 
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in; */
+
+  transition: all 100ms 0.1s ease-in;
+
+
 }
 
 .item img:hover {
